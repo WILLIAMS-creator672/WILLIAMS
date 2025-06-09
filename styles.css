@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: poppins;
+    font-family: Tagesschrift;
 }
 
 nav {
@@ -246,7 +246,7 @@ nav i {
     font-size: 13px;
     text-decoration-line: none;
     font-weight: bold;
-    font-family: Montserrat;
+    
 }
 
 /* SECTION ONE */
@@ -261,7 +261,7 @@ nav i {
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     align-items: center;
-
+    font-family: Tagesschrift;
 }
 
 @media screen and (max-width: 490px) {
@@ -290,7 +290,6 @@ nav i {
     /* border: 2px solid white; */
     color: gold;
     font-size: 55px;
-    font-family: Poppins;
     font-weight: bold;
     border-right: 1px solid gold;
     overflow: hidden;
@@ -307,7 +306,7 @@ nav i {
     }
 
     100% {
-        width: 430px;
+        width: 370px;
     }
 
 
@@ -321,7 +320,7 @@ nav i {
         }
 
         100% {
-            width: 230px;
+            width: 210px;
         }
     }
 }
@@ -346,7 +345,7 @@ nav i {
     font-size: 23px;
     color: white;
     line-height: 30px;
-    font-family: Poppins;
+    
 }
 
 @media screen and (max-width: 490px) {
@@ -505,7 +504,7 @@ nav i {
 
 .sec-two .attributes div h3 {
     font-size: 30px;
-    font-family: Poppins;
+    
 
 }
 

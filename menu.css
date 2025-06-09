@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: poppins;
+    font-family: Tagesschrift;
 }
 
 nav {
@@ -252,7 +252,6 @@ nav i {
     font-size: 13px;
     text-decoration-line: none;
     font-weight: bold;
-    font-family: Poppins;
 }
 
 /* SECTION ONE */
@@ -263,7 +262,6 @@ nav i {
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 20px 4vw;
-    font-family: Segoe UI;
     display: flex;
     flex-flow: column;
     gap: 20px;
@@ -433,7 +431,6 @@ div.buy {
 }
 
 .buy h2 {
-    font-family: Poppins;
     font-weight: 600;
 }
 
