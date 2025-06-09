@@ -257,7 +257,7 @@ nav i {
 /* SECTION ONE */
 
 .sec-one {
-    background-image: url(/RANDOM/RESTAURANT/IMAGES/menu-hero.png);
+    background-image: url(IMAGES/menu-hero.png);
     /* background-position: center; */
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.8);

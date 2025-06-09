@@ -256,7 +256,7 @@ nav i {
 .sec-one {
     padding: 30px 4vw;
     /* border: 2px solid red; */
-    background-image: url(/RANDOM/RESTAURANT/IMAGES/hero.png);
+    background-image: url(IMAGES/hero.png);
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.8);
     background-attachment: fixed;
