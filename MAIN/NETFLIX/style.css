@@ -1,0 +1,1098 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: #22151C; */
+
+}
+.nav-link{
+    text-decoration-line: none;
+}
+.link {
+    text-decoration-line: none;
+}
+
+.section-one {
+    padding: 10px 4vw;
+    background-color: #22151C;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div{
+    /* border: 2px solid green; */
+}
+
+.logo {
+    /* border: 2px solid black; */
+    height: 50px;
+    width: fit-content;
+}
+
+.buton {
+    border: none;
+    color: black;
+    background-color: white;
+    text-decoration-line: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    
+}
+@media screen and (max-width: 390px){
+    .buton{
+        font-size: 10px;
+        
+    }
+    
+}
+
+.nav-link:hover {
+    background-color: rgb(187, 178, 178);
+    transition: all 0.2s ease;
+}
+
+/* THIS IS SECTION TWO */
+
+.section-two {
+    padding: 0px 4vw;
+    background-color: #22151C;
+    height: 600px;
+}
+
+.sec-two-div {
+    background-image: url(/IMAGES/netflix\ image.jpg);
+    height: 550px;
+    width: 100%;
+    border-radius: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: inset 6px -100px 6px -5px rgba(75, 74, 74, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px -1px 9px rgb(77, 74, 74);
+}
+@media screen and (max-width: 390px) {
+    .sec-two-div{
+        height: 450px;
+    }
+}
+.sec-two-main-div {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+
+}
+
+.sec-two-h1-div {
+    /* border: 2px solid white; */
+    width: fit-content;
+    margin: auto;
+}
+
+.sec-two-h1 {
+    color: white;
+    text-align: center;
+    font-family: Segoe UI;
+    font-size: 33px;
+    font-weight: bolder;
+}
+@media screen and (max-width: 390px) {
+    .sec-two-h1{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sec-two-h1{
+        font-size: 60px;
+    }
+}
+
+.sec-two-h3-div {
+    /* border: 2px solid yellowgreen; */
+    width: fit-content;
+    margin: auto;
+    
+}
+
+.sec-two-h3 {
+    color: white;
+    font-family: Segoe UI;
+    font-size: 16px;
+}
+@media screen and (max-width: 390px) {
+    .sec-two-h3{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 767px) {
+    .sec-two-h3{
+        font-size: 25px;
+    }
+}
+
+
+.sec-two-p-div {
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin: auto;
+    /* margin-top: 20px; */
+}
+
+.sec-two-p {
+    color: white;
+    font-family: Segoe UI;
+    font-size: 10px;
+}
+@media screen and (max-width: 390px) {
+    .sec-two-p{
+        font-size: 8px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sec-two-p{
+        font-size: 15px;
+    }
+}
+
+
+.sec-two-form-div {
+    /* border: 2px solid tomato; */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    margin: auto;
+}
+@media screen and (max-width: 390px) {
+    .sec-two-form-div{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sec-two-form-div{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+#email {
+    padding: 15px;
+    border-radius: 40px;
+    width: 250px;
+    background-color: gray;
+    border: 1px solid rgb(175, 172, 172);
+    color: white;
+    opacity: 0.8;
+    outline: none;
+
+}
+@media screen and (max-width: 390px) {
+    #email{
+      padding: 12px;
+      width: 200px;
+    }
+}
+@media screen and (min-width: 768px) {
+    #email{
+      padding: 20px;
+      width: 300px;
+    }
+}
+input::target-text {
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 15px;
+}
+
+#get-started {
+    padding: 12px;
+    width: 160px;
+    border-radius: 40px;
+    border: none;
+    background-color: red;
+    font-size: 17px;
+    color: white;
+}
+@media screen and (max-width: 390px) {
+    #get-started{
+      padding: 10px;
+      width: 150px;
+      font-size: 15px;
+    }
+}
+@media screen and (min-width: 768px) {
+    #get-started{
+      padding: 12px;
+      width: 220px;
+      font-size:25px;
+    }
+}
+#get-started:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.fa-angle-right {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+/* THIS IS SECTION THREE */
+
+.section-three {
+    padding: 0px 4vw;
+    background-color: #22151C;
+    margin-top: -100px;
+}
+
+.sec-three-h2-div {
+    border: 2px solid green;
+    width: fit-content;
+
+}
+
+.sec-three-h2 {
+    color: #DCC7CC;
+    font-family: Segoe UI;
+    padding: 10px;
+}
+
+/* THIS IS SECTION FOUR */
+.section-four {
+    padding: 30px 4vw;
+    background-color: black;
+    
+}
+
+@media screen and (max-width: 390px) {
+    .section-four {
+        padding: 30px 4vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-four {
+        padding: 30px 4vw;
+
+    }
+}
+
+.four {
+    /* border: 2px solid white; */
+    width: fit-content;
+    padding: 10px;
+    /* margin: auto; */
+
+}
+@media screen and (max-width: 1113px) {
+    .four{
+        margin: auto;
+    }
+}
+.four-h2 {
+    color: white;
+    font-family: Segoe UI;
+}
+
+
+.sec-four-main-div {
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    width: fit-content;
+    margin: auto;
+}
+
+@media screen and (max-width: 450px) {
+    .sec-four-main-div {
+        display: grid;
+        grid-template-columns: auto;
+        margin: auto;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1230px) {
+    .sec-four-main-div {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: auto;
+       
+    }
+}
+
+
+.sec-four-div-one {
+    border: 2px solid rgb(65, 61, 61);
+    background-image: linear-gradient(to bottom right, #1D529D, #130E24);
+    height: 250px;
+    width: 290px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+    justify-content: space-around;
+    opacity: 0.8;
+
+
+}
+
+@media screen and (max-width: 390px) {
+    .sec-four-div-one {
+      
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sec-four-div-one {
+        /* height: 250px;
+        width: 280px; */
+
+    }
+}
+
+.sec-four-div-one:hover {
+    opacity: 0.9;
+    transform: scale(1.01);
+    transition: all 0.2s ease;
+}
+
+.four-sub-one {
+    /* border: 2px solid red; */
+    /* opacity: 0.6; */
+    margin-left: 10px;
+    padding: 10px;
+    width: fit-content;
+
+}
+
+.four-sub-one h2 {
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI;
+}
+
+.four-sub-one p {
+    color: rgb(184, 179, 179);
+    font-size: 20px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.four-sub-one .p-two {
+    color: rgb(184, 179, 179);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+
+.fa-check {
+    color: white;
+}
+
+.four-sub-two {
+    /* border: 2px solid white; */
+    margin-left: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.four-sub-two p {
+    color: rgb(184, 179, 179);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+
+.sec-four-div-two {
+    border: 2px solid rgb(65, 61, 61);
+    background-image: linear-gradient(to bottom right, #1D529D, #130E24);
+    height: 250px;
+    width: 290px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+    justify-content: space-around;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 370px) {
+    .sec-four-div-two {
+    
+
+    }
+
+}
+
+.sec-four-div-two:hover {
+    opacity: 0.9;
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+}
+
+.four-sub-three {
+    /* border: 2px solid white; */
+    margin-left: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.four-sub-three h2 {
+    color: white;
+    font-family: Segoe UI;
+}
+
+.four-sub-three p {
+    color: rgb(184, 179, 179);
+    font-size: 20px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.four-sub-three .p-two {
+    color: rgb(184, 179, 179);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+
+.four-sub-three-sub {
+    display: flex;
+    gap: 3px;
+    /* align-items: center; */
+}
+
+.four-sub-four {
+    /* border: 2px solid white; */
+    margin-left: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.four-sub-four p {
+    color: rgb(184, 179, 179);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+
+.sec-four-div-three {
+    border: 2px solid rgb(65, 61, 61);
+    background-image: linear-gradient(to bottom right, #722991, #352066, #120C1F);
+    height: 250px;
+    width: 290px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+    justify-content: space-around;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 370px) {
+    .sec-four-div-three {
+        
+    }
+}
+
+.sec-four-div-three:hover {
+    opacity: 0.9;
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.four-sub-five {
+    /* border: 2px solid white; */
+    margin-left: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.four-sub-five h2 {
+    color: white;
+    font-family: Segoe UI;
+}
+
+.four-sub-five p {
+    color: rgb(184, 179, 179);
+    font-size: 20px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.four-sub-five .p-two {
+    color: rgb(184, 179, 179);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+
+.four-sub-five-sub {
+    display: flex;
+    gap: 3px;
+}
+
+.four-sub-six {
+    /* border: 2px solid white; */
+    margin-left: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.four-sub-six p {
+    color: rgb(184, 179, 179);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+
+.sec-four-div-four {
+    border: 2px solid rgb(65, 61, 61);
+    background-image: linear-gradient(to bottom right, #8E2455, #351841, #120C1F);
+    height: 260px;
+    width: 290px;
+    /* padding-top: 5px; */
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 370px) {
+    .sec-four-div-four {
+      
+    }
+
+}
+
+.sec-four-div-four:hover {
+    opacity: 0.9;
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+}
+
+.four-sub-seven {
+    /* border: 2px solid white; */
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.four-sub-seven h2 {
+    color: white;
+    font-family: Segoe UI;
+}
+
+.four-sub-seven .p-one {
+    color: rgb(184, 179, 179);
+    font-size: 20px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.four-sub-seven .p-two {
+    color: rgb(184, 179, 179);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+
+.seven-one {
+    /* border: 2px solid white; */
+    display: flex;
+    gap: 3px;
+}
+
+.seven-one p {
+    color: rgb(184, 179, 179);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+
+.seven-two {
+    /* border: 2px solid firebrick; */
+    display: flex;
+    gap: 3px;
+}
+
+.seven-two p {
+    color: rgb(184, 179, 179);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+
+.four-sub-eight {
+    /* border: 2px solid white; */
+    margin-left: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.four-sub-eight p {
+    color: rgb(184, 179, 179);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+
+/* THIS IS SECTION FIVE */
+
+.section-five {
+    /* border: 2px solid white; */
+    padding: 50px 10vw;
+    background-color: black;
+
+}
+
+.five-h1-div {
+    /* border: 2px solid red; */
+    width: fit-content;
+    padding: 10px;
+
+}
+@media screen and (max-width: 1113px) {
+    .five-h1-div{
+        margin: auto;
+    }
+}
+
+.five-h1 {
+    font-size: 30px;
+    font-family: Segoe UI;
+    color: white;
+}
+@media screen and (max-width: 390px) {
+    .five-h1{
+        font-size: 25px;
+    }
+}
+
+.five-main-div {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* border: 2px solid green; */
+    gap: 50px;
+    justify-content: center;
+    /* width: fit-content; */
+    margin: auto;
+}
+    
+    @media screen and (max-width: 450px) {
+        .five-main-div {
+            display: grid;
+            grid-template-columns: auto;
+            margin: auto;
+            gap: 20px;
+        }
+    }
+    
+    @media screen and (min-width: 1230px) {
+        .five-main-div {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin: auto;
+           
+        }
+    }
+
+.sec-five-div-one {
+    background-color: #272727;
+    border: 2px solid rgb(75, 68, 68);
+    border-radius: 20px;
+    width: 250px;
+    height: 180px;
+    /* width: inherit; */
+    padding: 10px 10px;
+}
+
+.one-sub-one {
+    /* border: 2px solid green; */
+    width: fit-content;
+    padding: 5px;
+}
+
+.one-sub-one h2 {
+    font-size: 20px;
+    color: white;
+    font-family: Segoe UI;
+}
+
+.one-sub-one h3 {
+    color: rgb(184, 181, 181);
+    font-family: Segoe UI;
+    font-size: 15px;
+}
+
+.one-sub-two {
+    /* border: 2px solid yellowgreen; */
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-desktop {
+    color: white;
+    /* background: linear-gradient(45deg, #912556, #351741); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #912556;
+    font-size: 40px;
+}
+
+.sec-five-div-two {
+    background-color: #272727;
+    border: 2px solid rgb(75, 68, 68);
+    border-radius: 20px;
+    width: 250px;
+    height: 180px;
+    padding: 10px 10px;
+}
+
+.two-sub-one {
+    /* border: 2px solid green; */
+    width: fit-content;
+    padding: 5px;
+}
+
+.two-sub-one h2 {
+    font-size: 20px;
+    color: white;
+    font-family: Segoe UI;
+}
+
+.two-sub-one h3 {
+    color: rgb(184, 181, 181);
+    font-family: Segoe UI;
+    font-size: 15px;
+}
+
+.two-sub-two {
+    /* border: 2px solid yellowgreen; */
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-circle-arrow-down {
+    color: white;
+    /* background: linear-gradient(45deg, #912556, #351741); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #912556;
+    font-size: 40px;
+}
+
+.sec-five-div-three {
+    background-color: #272727;
+    border: 2px solid rgb(75, 68, 68);
+    border-radius: 20px;
+    width: 250px;
+    height: 180px;
+    padding: 10px 10px;
+}
+
+.three-sub-one {
+    /* border: 2px solid green; */
+    width: fit-content;
+    padding: 5px;
+}
+
+.three-sub-one h2 {
+    font-size: 20px;
+    color: white;
+    font-family: Segoe UI;
+}
+
+.three-sub-one h3 {
+    color: rgb(184, 181, 181);
+    font-family: Segoe UI;
+    font-size: 15px;
+}
+
+.three-sub-two {
+    /* border: 2px solid yellowgreen; */
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-binoculars {
+    color: white;
+    /* background: linear-gradient(45deg, #912556, #351741); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #912556;
+    font-size: 40px;
+}
+
+.sec-five-div-four {
+    background-color: #272727;
+    border: 2px solid rgb(75, 68, 68);
+    border-radius: 20px;
+    width: 250px;
+    height: 180px;
+    padding: 10px 10px;
+}
+
+.four-sub-one {
+    /* border: 2px solid green; */
+    width: fit-content;
+    padding: 5px;
+}
+
+.four-sub-one h2 {
+    font-size: 20px;
+    color: white;
+    font-family: Segoe UI;
+}
+
+.four-sub-one h3 {
+    color: rgb(184, 181, 181);
+    font-family: Segoe UI;
+    font-size: 15px;
+}
+
+.foursub-two {
+    /* border: 2px solid yellowgreen; */
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-children {
+    color: white;
+    /* background: linear-gradient(45deg, #912556, #351741); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #912556;
+    font-size: 35px;
+}
+
+/* THIS IS SECTION SIX */
+
+.section-six {
+    padding: 50px 10vw;
+    background-color: black;
+}
+
+.six-h1-div {
+/* border: 2px solid white; */
+    width: fit-content;
+    padding: 10px;
+}
+@media screen and (max-width:390px) {
+    .six-h1-div {
+      margin: auto;
+    }
+}
+.six-h1-div h1 {
+    font-size: 30px;
+    font-family: Segoe UI;
+    color: white;
+}
+@media screen and (max-width:390px) {
+    .six-h1-div h1{
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+
+.six-main-div {
+    /* border: 2px solid white; */
+    padding: 15px;
+    display: grid;
+    gap: 10px;
+}
+
+.six-main-div div {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    align-items: center;
+    background-color: #272727;
+    border: 2px solid rgb(75, 68, 68);
+    border-radius: 15px;
+}
+
+.six-main-div div:hover {
+    background-color: #3F3F3F;
+    transition: all 0.2s ease-out;
+}
+
+.six-main-div div h3 {
+    color: white;
+    font-family: Segoe UI;
+}
+@media screen and (max-width: 390px){
+    .six-main-div div h3{
+        font-size: 12px;
+    }
+}
+
+.six-main-div div .fa-plus {
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/* THIS IS SECTION SEVEN */
+
+.section-seven {
+    padding: 0px 4vw;
+    background-color: black;
+}
+
+.seven-div {
+    /* border: 2px solid red; */
+    /* width: fit-content; */
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.seven-div .seven-h4-div {
+    /* border: 2px solid green; */
+    width: fit-content;
+    margin: auto;
+}
+
+
+.seven-div h4 {
+    color: white;
+    font-family: Segoe UI;
+}
+
+@media screen and (max-width: 390px) {
+    .seven-div h4 {
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+.seven-form-div {
+    /* border: 2px solid tomato; */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    margin: auto;
+}
+@media screen and (max-width: 390px) {
+    .seven-form-div{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .seven-form-div{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+/* THIS IS SECTION EIGHT */
+
+.section-eight {
+    padding: 50px 10vw;
+    background-color: black;
+    /* border: 2px solid green; */
+}
+
+.section-eight a {
+    color: #B7B7B7;
+    font-family: Segoe UI;
+}
+
+.section-eight div {
+    width: fit-content;
+    padding: 10px;
+    /* border: 2px solid white; */
+}
+
+.eight-main-div {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    /* border: 2px solid green; */
+}
+    
+    @media screen and (max-width: 450px) {
+        .eight-main-div {
+            display: grid;
+            grid-template-columns: auto;
+            margin: 0;
+            gap: 20px;
+        }
+    }
+    
+    @media screen and (min-width: 1230px) {
+        .eight-main-div {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin: auto;
+           
+        }
+    }
+
+/* @media screen and (max-width: 390px) {
+    .eight-main-div {
+        grid-template-columns: auto;
+        gap: 50px;
+    }
+
+} */
+
+ul {
+    list-style-type: none;
+}
