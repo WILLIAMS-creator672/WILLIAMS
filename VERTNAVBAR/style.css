@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    gap: 20px;
+    
+
+}
+
+.vert-nav {
+    /* border: 2px solid red; */
+    width: 200px;
+    background-color: gray;
+   
+    height: 610px;
+    
+}
+
+meter{
+    height: 50px;
+    margin: 20px;
+    width: 200px;
+}
+
+
+h1{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    animation-name: h1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes h1{
+    
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    /* border: 2px solid red; */
+   
+    display: block;
+    text-decoration-line: none;
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.1s ease;
+}
+a:hover{
+    background-color: black;
+    border-left: 4px solid green;
+    
+}
+/* .about, .services, .contact, .home:link{
+    background-color:black;
+} */
+.about, .services, .contact, .home, :visited{
+    background-color: green;
+}
+
+
+.main{
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+meter{
+animation: meter 0.9s infinite;
+}
+
+@keyframes meter{
+    0% {transform: rotate(60deg);}
+    50% { transform: rotate(60deg);}
+    75% { transform: rotate(-60deg);}
+    100% { transform: rotate(60deg);}
+}
