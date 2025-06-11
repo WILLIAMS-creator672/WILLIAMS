@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="icon" type="image/x-icon" href="/RANDOM/RESTAURANT/IMAGES/savory-favi.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="order.css">
+
+
+</head>
+
+<body>
+
+    <!-- NAV -->
+
+    <nav>
+        <div class="logo-div">
+            <h1>SAVORY <br> FOODS</h1><i class="fa-solid fa-utensils"></i>
+        </div>
+
+        <div class="links-div" id="links-div">
+            <h3>Savory Foods</h3>
+            <li><a href="index.html" class="">Home</a></li>
+            <li><a href="menu.html" class="">Menu</a></li>
+            <li><a href="order.html" class="order">Order</a></li>
+            <li><a href="about.html" class="">About Us</a></li>
+        </div>
+
+        <div class="hamburger" id="hamburger" onclick="this.classList.toggle('open')">
+            <span class="span" id="span"></span>
+            <span class="span" id="span"></span>
+            <span class="span" id="span"></span>
+        </div>
+
+        <div class="order-button">
+            <button><a href="order.html">Click To Order</a>
+            </button>
+        </div>
+    </nav>
+
+    <!-- SECTION ONE -->
+
+    <section class="sec-one">
+        <div class="heading">
+            <h1>Get Your Food Delivered To Your Home &#128666</h1>
+        </div>
+
+        <div class="form">
+            <form action="">
+                <input type="text" placeholder="Full Name..." required>
+                <input type="email" placeholder="Your Email..." required>
+                <input type="text" list="countryCode" placeholder="CountryCode" required>
+                <datalist id="countryCode">
+                    <option value="+93">Afghanistan (+93)</option>
+                    <option value="+358">Aland Islands (+358)</option>
+                    <option value="+355">Albania (+355)</option>
+                    <option value="+213">Algeria (+213)</option>
+                    <option value="+1684">American Samoa (+1684)</option>
+                    <option value="+376">Andorra (+376)</option>
+                    <option value="+244">Angola (+244)</option>
+                    <option value="+1264">Anguilla (+1264)</option>
+                    <option value="+672">Antarctica (+672)</option>
+                    <option value="+1268">Antigua and Barbuda (+1268)</option>
+                    <option value="+54">Argentina (+54)</option>
+                    <option value="+374">Armenia (+374)</option>
+                    <option value="+297">Aruba (+297)</option>
+                    <option value="+61">Australia (+61)</option>
+                    <option value="+43">Austria (+43)</option>
+                    <option value="+994">Azerbaijan (+994)</option>
+                    <option value="+1242">Bahamas (+1242)</option>
+                    <option value="+973">Bahrain (+973)</option>
+                    <option value="+880">Bangladesh (+880)</option>
+                    <option value="+1246">Barbados (+1246)</option>
+                    <option value="+375">Belarus (+375)</option>
+                    <option value="+32">Belgium (+32)</option>
+                    <option value="+501">Belize (+501)</option>
+                    <option value="+229">Benin (+229)</option>
+                    <option value="+1441">Bermuda (+1441)</option>
+                    <option value="+975">Bhutan (+975)</option>
+                    <option value="+591">Bolivia (+591)</option>
+                    <option value="+387">Bosnia and Herzegovina (+387)</option>
+                    <option value="+267">Botswana (+267)</option>
+                    <option value="+55">Brazil (+55)</option>
+                    <option value="+234">Nigeria (+234)</option>
+                    <!-- Add more countries as needed -->
+                </datalist>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="text" placeholder="Your Address..." required>
+
+                <select name="quantity" id="quantity" required>
+                    <option value="" disabled selected>Quantity</option>
+                    <option value="">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+
+                <!-- <div> -->
+                <!-- <summary>CLICK TO SELECT FOOD TYPE</summary> -->
+                <div>
+                    <option value="" disabled selected style="color: wheat;">Multiple selections allowed</option><br>
+                    <input type="checkbox"> Chicken Fry<br>
+                    <input type="checkbox"> Chicken Pizza<br>
+                    <input type="checkbox"> Chicken Burger<br>
+                    <input type="checkbox"> French Fries<br>
+                    <input type="checkbox"> Fried Squid<br>
+                    <input type="checkbox"> Grill Sandwich<br>
+                    <input type="checkbox"> Grilled Steak<br>
+                    <input type="checkbox"> Pasta Alfredo<br>
+                    <input type="checkbox"> Sushi Rolls<br>
+                    <input type="checkbox"> Taco Traifi<br>
+                </div>
+
+                <button><a href="" id="order" onclick="orderbutton()">Order Now</a></button></a>
+
+            </form>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div>
+            <h2>Savory Foods</h2>
+            <p>2025 all rights Reserved</p> <br> <br>
+
+            <h2>Follow Us On</h2>p
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            &nbsp; &nbsp;
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            &nbsp; &nbsp;
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a> &nbsp; &nbsp;
+        </div>
+
+        <div>
+            <h2>Menu</h2><br>
+            <li><a href="">Home</a></li><br>
+            <li><a href="">Menu</a></li><br>
+            <li><a href="">Order</a></li><br>
+            <li><a href="">About Us</a></li><br>
+        </div>
+        <div>
+            <h2>Contact</h2><br>
+            <li><a href="#7"><i class="fa-solid fa-phone"></i> +44 446890221</a></li> <br>
+            <li><a href="#"><i class="fa-regular fa-envelope"></i>
+                    Savoryfoods95@gmail.com</a></li><br>
+            <li><a href="#"> <i class="fa-brands fa-facebook"></i> Savory
+                    Foods</a></li><br>
+            <li><a href="#"><i class="fa-brands fa-square-instagram"></i> Savory Foods</a></li>
+
+        </div>
+    </footer>
+
+
+
+
+    <script>
+
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('links-div');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            span.classList.toggle('active');
+        });
+
+
+    </script>
+</body>
+
+</html>
