@@ -1,9 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Roboto;
+  font-family: Lora ;
 }
-
 body {
   font-family: Roboto;
   overflow-y: auto;
@@ -45,7 +44,7 @@ nav {
 
 @media screen and (max-width: 920px) {
   .nav-div-one {
-    /* border: 2px solid red solid black; */
+    /* border: 2px solid black; */
     width: fit-content;
     display: flex;
     color: white;
@@ -71,7 +70,7 @@ h1 span {
 }
 
 .nav-div-two {
-  /* border: 2px solid red solid red; */
+  /* border: 2px solid red ; */
   width: fit-content;
   display: flex;
   gap: 50px;
@@ -83,11 +82,13 @@ li {
 }
 
 .nav-div-two a {
+  /* border: 2px solid red; */
   text-decoration-line: none;
   font-size: 18px;
   font-weight: bold;
-  color: white;
   position: relative;
+  /* background-color: wheat; */
+  color: white;
 }
 
 .nav-div-two a::before {
@@ -99,6 +100,7 @@ li {
   height: 3px;
   background-color: #f8cd96;
   transition: width 0.3s ease-in-out;
+ 
 }
 
 .nav-div-two a:hover::before,
@@ -122,6 +124,7 @@ li {
   height: 2px;
   background-color: #f8cd96;
   transition: width 0.3s ease-in-out;
+  
 }
 
 @media screen and (max-width: 920px) {
@@ -131,10 +134,10 @@ li {
 
   .nav-div-two a.active {
     /* background-color: #f8cd96; */
-    color: white;
+    color: rgb(199, 150, 59);
     width: 100%;
+  
   }
-
 
 }
 
@@ -174,10 +177,10 @@ li {
   .nav-div-two {
     /* border: 2px solid red solid red; */
     flex-direction: column;
-    background-color: white;
-    background-color: rgba(253, 253, 253, 1);
+    background-color: #0F3C7C;
+    background-color: rgba(15, 60, 124, 0.9);
     position: fixed;
-    top: 55px;
+    top: 50px;
     left: -300px;
     /* hidden off-screen initially */
     width: 230px;
@@ -210,7 +213,7 @@ li {
     padding: 12px 20px;
     display: block;
     width: 180px;
-    color: grey;
+    color: white;
     text-transform: lowercase;
   }
 
@@ -221,9 +224,9 @@ li {
 
 @media screen and (max-width: 920px) {
   .nav-div-two a:hover {
-    background-color: #f8cd96;
+    /* background-color: #f8cd96; */
     transition: all 0.3s;
-    color: white;
+    color: rgb(199, 150, 59);
 
   }
 }
@@ -246,7 +249,7 @@ li {
 
 .section-one h1 {
   font-weight: 500;
-  font-size: 50px;
+  font-size: 45px;
   color: #0f3c7c;
 }
 
@@ -361,6 +364,8 @@ li {
   font-size: 15px;
   font-weight: bold;
   box-shadow: 1px 1px 5px #d4bfa4;
+  border-radius: 20px;
+  
 }
 
 @media screen and (max-width: 1190px) {
@@ -382,6 +387,7 @@ li {
   background-color: #fdeedc;
   transition: all 0.3s ease;
   outline-style: none;
+  /* border: 1px solid #0F3C7C; */
 }
 
 .input:focus::placeholder {
@@ -395,6 +401,7 @@ li {
   border: none;
   font-size: 15px;
   font-weight: bold;
+  border-radius: 20px;
 }
 
 .submit:hover {
@@ -849,6 +856,8 @@ li {
 .sec-six .six-main img {
   width: 40%;
   height: auto;
+  border-radius: 10px;
+  border-left: 4px solid #0F3C7C;
 
 }
 
@@ -906,15 +915,18 @@ li {
 .sec-six .six-main .sub .p {
   color: black;
   font-weight: bold;
+  font-size: 15px;
 }
 
 .sec-six .six-main .sub .p-two {
-  color: #F8CD96;
+  color: #be8438;
+  font-size: 15px;
 }
 
 .sec-six .six-main .sub .email {
-  color: #F8CD96;
+  color: #be8438;
   text-decoration-line: none;
+  font-size: 15px;
 }
 
 .sec-six .six-main .email:hover {
@@ -1174,6 +1186,7 @@ footer .inPut {
   border: none;
   font-size: 15px;
   font-weight: bold;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 620px) {
@@ -1209,6 +1222,7 @@ footer #message {
   word-wrap: break-word;
   overflow-wrap: break-word;
   resize: none;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 620px) {
@@ -1260,6 +1274,7 @@ footer .subMit {
   font-size: 15px;
   font-weight: bold;
   text-align: center;
+  border-radius: 20px;
 }
 
 footer .subMit:hover {
