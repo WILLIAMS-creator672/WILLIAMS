@@ -372,7 +372,7 @@ li {
 
 @media screen and (max-width: 620px) {
   .input {
-    width: 200px;
+    width: 260px;
     margin-bottom: 20px;
   }
 
@@ -444,7 +444,7 @@ li {
 .section-two {
   padding: 30px 3vw;
   font-family: Roboto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .two-main {
@@ -537,10 +537,10 @@ li {
 
 
 .sec-three {
-  background-image: url(/MAIN/ESTATE/IMAGES/three-hero.jpg);
+  background-image: url(IMAGES/three-hero.jpg);
   background-blend-mode: darken;
   background-color: rgba(0, 0, 0, 0.7);
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   font-family: Roboto;
 }
 
@@ -813,7 +813,7 @@ li {
 .sec-six {
   font-family: Roboto;
   padding: 30px 3vw;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .sec-six .six-main {
@@ -1010,8 +1010,8 @@ li {
 /* FOOTER */
 
 footer {
-  background-image: url(/MAIN/ESTATE/IMAGES/footer-image.jpg);
-  /* border: 2px solid red solid red; */
+  background-image: url(IMAGES/footer-image.jpg);
+  /* border: 2px solid red ; */
   font-family: Roboto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1079,6 +1079,14 @@ footer .sub-one h1 {
   font-size: 40px;
 }
 
+@media screen and (max-width: 620px) {
+  footer .sub-one h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+}
+
 footer .sub-one span {
   color: #F8CD93;
 }
@@ -1092,6 +1100,14 @@ footer .sub-one p {
 @media screen and (max-width: 920px) {
   footer .sub-one p {
     font-size: 18px;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+  footer .sub-one p {
+    font-size: 14px;
     text-align: center;
   }
 
@@ -1120,6 +1136,9 @@ footer form {
   width: fit-content;
   display: flex;
   flex-flow: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 footer h2 {
@@ -1153,7 +1172,7 @@ footer .inPut {
 
 @media screen and (max-width: 380px) {
   footer .inPut {
-    width: 85%;
+    width: 250px;
     margin-bottom: 20px;
   }
 
@@ -1189,7 +1208,7 @@ footer #message {
 
 @media screen and (max-width: 380px) {
   footer #message {
-    width: 85%;
+    width: 250px;
     margin-bottom: 20px;
     padding-bottom: 50px;
     height: auto;
@@ -1222,7 +1241,7 @@ footer .subMit {
   padding: 15px;
   /* padding-right: 100px; */
   /* padding-left: 100px; */
-  /* width: 200px; */
+  width: 100%;
   border: none;
   font-size: 15px;
   font-weight: bold;
