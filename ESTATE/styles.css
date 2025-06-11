@@ -730,8 +730,22 @@ li {
   /* border: 2px solid red solid red; */
   margin-bottom: 100px;
   display: flex;
+  flex-flow: column;
   justify-content: center;
   font-family: Roboto;
+}
+
+.sec-five h1{
+  color:white ;
+  width: fit-content;
+  margin: auto;
+  background-color: #0F3C7C;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.fa-grip-lines{
+  color: green;
 }
 
 .sec-five .main {
