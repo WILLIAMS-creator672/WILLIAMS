@@ -3,6 +3,11 @@
   padding: 0;
   font-family: Lora ;
 }
+
+html{
+ scroll-behavior:smooth;
+}
+
 body {
   font-family: Roboto;
   overflow-y: auto;
